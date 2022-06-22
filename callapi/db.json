@@ -1,3 +1,13 @@
 {
-  "user": []
+  "user": [
+    {
+      "userName": "asdas",
+      "fullName": "dasdasd",
+      "email": "asdas",
+      "birth": "23123-12-31",
+      "createdAt": 1655876437245,
+      "updatedAt": 1655876437245,
+      "id": 1
+    }
+  ]
 }

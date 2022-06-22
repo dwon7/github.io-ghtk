@@ -1,4 +1,4 @@
-* {
+w* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,6 +9,7 @@ $color_green: green;
 $color_white: white;
 $color_gray : gray;
 $color_yellow: #d9d32e;
+$color_red : red;
 
 
 
@@ -92,6 +93,38 @@ body {
                    padding: 12px;
                    font-size: larger;
                     border: 1px solid $color_gray;
+                }
+            }
+        }
+        #output {
+            tr{
+                text-align: center;
+                td {
+                   
+
+                    #btn-edit{
+                        background-color: $color_yellow;
+                        color: $color_white;
+                        height: 32px;
+                        width: 58px;
+                        border-radius: 5px;
+                        outline: none;
+                        border: none;
+                        font-size: large;
+                    }
+
+                    #btn-delete{
+                        background-color: $color_red;
+                        color: $color_white;
+                        height: 32px;
+                        width: 58px;
+                        border-radius: 5px;
+                        outline: none;
+                        border: none;
+                        font-size: large;
+                    }
+
+                
                 }
             }
         }

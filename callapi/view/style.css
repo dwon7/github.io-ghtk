@@ -1,4 +1,4 @@
-* {
+w* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -69,4 +69,27 @@ body {
   padding: 12px;
   font-size: larger;
   border: 1px solid gray;
+}
+.form-info table #output tr {
+  text-align: center;
+}
+.form-info table #output tr td #btn-edit {
+  background-color: #d9d32e;
+  color: white;
+  height: 32px;
+  width: 58px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: large;
+}
+.form-info table #output tr td #btn-delete {
+  background-color: red;
+  color: white;
+  height: 32px;
+  width: 58px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: large;
 }/*# sourceMappingURL=style.css.map */
