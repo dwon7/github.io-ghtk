@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+$color_green: green;
+$color_white: white;
+$color_gray : gray;
+$color_yellow: #d9d32e;
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+    
+.form-create {
+    form {
+        width: 1240px;
+        border: 1px solid;
+        margin-top: 20px;
+        padding: 10px;
+        box-shadow: 5px 10px 18px $color_gray;
+
+
+        h2{
+            background-color: $color_green;
+            color: $color_white;
+            height: 40px;
+
+        }
+
+        .input-fill{
+            display: flex;
+            flex-direction: column;
+
+            label {
+                padding-top: 16px;
+                padding-bottom: 12px;
+            }
+
+            input{
+                height: 40px;
+                padding-left: 8px;
+                border: 2px solid  $color_gray;
+                border-radius: 8px;
+            }
+        }
+
+        .action {
+            padding: 20px 0;
+
+            .btn {
+                border-radius: 5px;
+                outline: none;
+                border: none;
+                font-size: large;
+            }
+
+            #btn-save {
+                background-color: $color_green;
+                color: $color_white;
+                height: 32px;
+                width: 58px;
+            }
+
+            #btn-reset {
+                background-color: $color_yellow;
+                height: 32px;
+                width: 58px;
+            }
+        }
+    }
+    
+}
+.form-info{
+    margin-top: 28px;
+
+    table {
+        width: 100%;
+        thead{
+            
+            tr{
+                
+                th{
+                   background-color: $color_green;
+                   color: $color_white;
+                   padding: 12px;
+                   font-size: larger;
+                    border: 1px solid $color_gray;
+                }
+            }
+        }
+    }
+}

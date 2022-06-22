@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/view/style.css">
+    <title>Call API</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-create">
+            <form action="">
+                <h2>Sign Up User</h2>
+                <div class="input-fill">
+                    <label for="">User Name</label>
+                    <input type="text" id="username-input" placeholder="Fill your User Name">
+                </div>
+                <div class="input-fill">
+                    <label for="">Full Name</label>
+                    <input type="text" id="fname-input" placeholder="Fill your Full Name">
+                </div>
+                <div class="input-fill">
+                    <label for="">Email</label>
+                    <input type="text" id="email-input" placeholder="Fill your Email">
+                </div>
+                <div class="input-fill">
+                    <label for="">Date of Birth</label>
+                    <input type="date" id="birth-input" >
+                </div>
+                <div class="action">
+                    <button class="btn btn-save" id = "btn-save" type="submit">Save</button>
+                    <button class="btn btn-reset" id = "btn-reset" type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+        <div class="form-info">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>User Name</th>
+                        <th>Full Name</th>
+                        <th>Email</th>
+                        <th>Date of Birth</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="output"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

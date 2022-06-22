@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.form-create form {
+  width: 1240px;
+  border: 1px solid;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 5px 10px 18px gray;
+}
+.form-create form h2 {
+  background-color: green;
+  color: white;
+  height: 40px;
+}
+.form-create form .input-fill {
+  display: flex;
+  flex-direction: column;
+}
+.form-create form .input-fill label {
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+.form-create form .input-fill input {
+  height: 40px;
+  padding-left: 8px;
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+.form-create form .action {
+  padding: 20px 0;
+}
+.form-create form .action .btn {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: large;
+}
+.form-create form .action #btn-save {
+  background-color: green;
+  color: white;
+  height: 32px;
+  width: 58px;
+}
+.form-create form .action #btn-reset {
+  background-color: #d9d32e;
+  height: 32px;
+  width: 58px;
+}
+
+.form-info {
+  margin-top: 28px;
+}
+.form-info table {
+  width: 100%;
+}
+.form-info table thead tr th {
+  background-color: green;
+  color: white;
+  padding: 12px;
+  font-size: larger;
+  border: 1px solid gray;
+}/*# sourceMappingURL=style.css.map */
