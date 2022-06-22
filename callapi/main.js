@@ -93,16 +93,10 @@ const preEditUser = (id) => {
 }
 
 const editUser = (id) => {
-  axios
-    .put(`api_url${id}`, userToObj())
-    .then((res) => {
-      console.log("Update successfully!");
-      save.innerHTML = "Create";
-      save.value = "create";
-    })
-    .catch((error) => {
-      console.log(error);
-    });
+  axios.patch(
+    api_url + `/${id}`,
+    userToObj()
+  );   
 };
 
 const displayInfoUserForm = (data) => {

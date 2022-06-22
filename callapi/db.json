@@ -1,13 +1,22 @@
 {
   "user": [
     {
-      "userName": "asdas",
-      "fullName": "dasdasd",
-      "email": "asdas",
-      "birth": "23123-12-31",
-      "createdAt": 1655876437245,
-      "updatedAt": 1655876437245,
+      "userName": "Dương",
+      "fullName": "Trần Hải Dương",
+      "email": "tranhaiduong.s4c@gmail.com",
+      "birth": "",
+      "createdAt": 1655880391392,
+      "updatedAt": 1655880391392,
       "id": 1
+    },
+    {
+      "userName": "Dương",
+      "fullName": "Trần Hải Dương",
+      "email": "tranhaiduong.s4c@gmail.com",
+      "birth": "275760-04-07",
+      "createdAt": 1655880472189,
+      "updatedAt": 1655880472189,
+      "id": 2
     }
   ]
 }
